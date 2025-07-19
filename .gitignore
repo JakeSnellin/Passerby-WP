@@ -1,0 +1,21 @@
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads, cache, upgrade, and backups
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+
+# Ignore default themes if you don't use them
+/wp-content/themes/
+
+# Ignore logs and OS-specific files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore local config and sensitive files
+wp-config.php
+local-xdebuginfo.php
+.env

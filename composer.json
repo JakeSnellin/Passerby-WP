@@ -1,0 +1,33 @@
+{
+  "name": "jakesnellin/passerby-wp",
+  "require": {
+    "johnpbloch/wordpress": "^6.3",
+    "johnpbloch/wordpress-core-installer": "^1.1",
+    "composer/installers": "^1.11",
+    "wpackagist-plugin/wp-graphql": "^1.9",
+    "wpackagist-plugin/advanced-custom-fields": "^6.1",
+    "wpackagist-plugin/wp-graphql-acf": "^0.8",
+    "pristas-peter/wp-graphql-gutenberg": "dev-main"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/pristas-peter/wp-graphql-gutenberg"
+    }
+  ],
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "WordPress\\Composer\\Installer::postInstall"
+    ],
+    "post-update-cmd": [
+      "WordPress\\Composer\\Installer::postUpdate"
+    ]
+  }
+}
