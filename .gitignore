@@ -14,8 +14,11 @@
 !/wp-content/plugins/
 !/wp-content/plugins/custom-headless-menus/
 
-# Ignore default themes if you don't use them
-/wp-content/themes/
+# Ignore all themes by default
+/wp-content/themes/*
+
+# But NOT the headless theme folder
+!/wp-content/themes/headless/
 
 # Ignore logs and OS-specific files
 *.log
