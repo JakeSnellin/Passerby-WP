@@ -7,6 +7,13 @@
 /wp-content/upgrade/
 /wp-content/backups/
 
+# Ignore all plugins
+/wp-content/plugins/*
+
+# But NOT these folders (un-ignore your custom plugins)
+!/wp-content/plugins/
+!/wp-content/plugins/custom-headless-menus/
+
 # Ignore default themes if you don't use them
 /wp-content/themes/
 
