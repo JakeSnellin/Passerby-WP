@@ -9,7 +9,7 @@ This repository contains the WordPress backend setup for the Passerby project. I
 - **WordPress Version:** 6.3 (managed via Composer)  
 - **Plugins Installed:**  
   - WPGraphQL  
-  - WPGraphQL Gutenberg  
+  - WPGraphQL Content Blocks
   - Advanced Custom Fields (ACF)  
   - WPGraphQL for ACF  
 - **Purpose:**  
@@ -54,17 +54,17 @@ This repository contains the WordPress backend setup for the Passerby project. I
 
 ## Deployment
 
-This repo can be deployed to any PHP-compatible hosting environment. The frontend repo ([Passerby-NextJS](https://github.com/jakesnellin/Passerby-NextJS)) handles the live site presentation.
+This repo can be deployed to any PHP-compatible hosting environment. The frontend repo ([Passerby-NextJS](https://github.com/JakeSnellin/Passerby)) handles the live site presentation.
 
 ---
 
 ## Useful Links
 
 - [WPGraphQL](https://www.wpgraphql.com/)  
-- [WPGraphQL Gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg)  
+- [WPGraphQL Content Blocks by WP Engine](https://github.com/wpengine/wp-graphql-content-blocks)  
 - [Advanced Custom Fields](https://www.advancedcustomfields.com/)  
 - [WPGraphQL for ACF](https://github.com/wp-graphql/wp-graphql-acf)  
-- [Next.js Frontend Repo](https://github.com/jakesnellin/Passerby-NextJS)  
+- [Next.js Frontend Repo](https://github.com/JakeSnellin/Passerby)  
 
 ---
 
