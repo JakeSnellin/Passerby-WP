@@ -12,7 +12,7 @@
 
 # But NOT these folders (un-ignore your custom plugins)
 !/wp-content/plugins/
-!/wp-content/plugins/custom-headless-menus/
+!/wp-content/plugins/custom-headless/
 
 # Ignore all themes by default
 /wp-content/themes/*
